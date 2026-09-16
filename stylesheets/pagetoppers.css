@@ -45,9 +45,9 @@
   list-style-type: none;
 }
 
-.document_title_container li:hover {
-  font-style: italic;
-  cursor: pointer;
+.document_title:hover:not(.document_selection) {
+    font-style: italic;
+    cursor: pointer;
 }
 
 .page_title {
@@ -103,7 +103,6 @@
 
   .titlecard#about_emma {
     padding-bottom: calc(var(--general-margin-standard) * 2);
-
   }
 
   .page_title {

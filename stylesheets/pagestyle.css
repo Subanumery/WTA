@@ -6,7 +6,7 @@
 
 html {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: var(--desktop-text-size);
   text-align: center;
   color: var(--text-color);
 }
@@ -30,6 +30,10 @@ main {
 }
 
 @media only screen and (max-width: 1300px) {
+
+  html {
+    font-size: var(--mobile-text-size); 
+  }
 
   body {
     display: flex;

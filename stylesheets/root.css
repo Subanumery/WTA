@@ -1,6 +1,9 @@
 :root {
   --text-color: rgba(60, 100, 90, 1);
 
+  --desktop-text-size: 18px;
+  --mobile-text-size: 15px;
+
   --background-color: rgba(255, 255, 255, 1);
 
   --highlight-blue: rgba(22, 192, 186, 0.85);
@@ -25,7 +28,6 @@
 
   --general-margin-standard: 1.5rem;
 
-
   --header-desktop-height: calc(var(--header-content-height) + var(--menu-height) + var(--gradient-border-thickness));
   --header-mobile-height: calc(var(--header-content-mobile-height) + var(--gradient-border-thickness));
 
@@ -33,4 +35,5 @@
   --footer-mobile-height: calc(var(--gradient-border-thickness) + var(--footer-content-mobile-height));
 
   --image-fade: 0.5rem;
+
 }
