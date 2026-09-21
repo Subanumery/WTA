@@ -52,7 +52,7 @@
 
 .page_title {
   align-self: center;
-  font-size: 2rem;
+  font-size: var(--title-text-size);
   text-align: center;
   margin: 0;
 }

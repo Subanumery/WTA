@@ -4,6 +4,7 @@
   text-align: center;
   min-height: 240px;
   max-width: 850px;
+  height: auto;
   background-color: var(--highlight-blue);
   box-shadow: 0 0 10px var(--highlight-blue);
   color: white;
@@ -47,7 +48,6 @@
 .quote {
   display: flex;
   align-self: center;
-  padding: 0.5rem;
 }
 
 .quote_sign_left, .quote_sign_right {
