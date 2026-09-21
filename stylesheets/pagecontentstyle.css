@@ -75,7 +75,6 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-
 }
 
 .pdf_icon {
@@ -103,7 +102,6 @@ ul {
 .contact_lists_container ul {
   padding: 0;
   list-style-type: none;
-
 }
 
 @media only screen and (max-width: 1300px) {

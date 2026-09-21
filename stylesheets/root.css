@@ -15,7 +15,7 @@
 
   --highlight-background-image: linear-gradient(to bottom right, var(--dark-blue), var(--light-blue));
 
-  --header-content-height: 160px;
+  --header-content-height: 120px;
   --header-content-mobile-height: 100px;
 
   --menu-height: 100px;
